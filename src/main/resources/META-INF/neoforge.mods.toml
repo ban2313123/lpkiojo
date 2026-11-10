@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="temporaryportal"
+version="1.0.0"
+displayName="Temporary Portal"
+description='''Temporary Portal event mod for Minecraft NeoForge 1.21.1'''
+authors="Developer"
+
+[[dependencies.temporaryportal]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.temporaryportal]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
